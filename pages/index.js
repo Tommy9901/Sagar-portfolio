@@ -11,7 +11,7 @@ import { Works } from "@/components/Work/Works";
 export default function Home() {
   return (
     <main max-w-1440px>
-      <Nav/>aaa
+      <Nav/>
       <Header />
 
       <AboutMe />
@@ -19,7 +19,7 @@ export default function Home() {
       <Experience />
       <Works />
       <Footer />
-      <FooterNav />``
+      <FooterNav />
       
     </main>
   );

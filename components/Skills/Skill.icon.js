@@ -22,7 +22,7 @@ const items = [
 export function SkillsIcon(){
     return(
     <div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-3 gap-8 ">
         {items.map((item, index) => (
             <div >
                 <div className="flex justify-center items-center mb-[7px]">
