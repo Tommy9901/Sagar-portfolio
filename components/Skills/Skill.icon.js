@@ -22,10 +22,10 @@ const items = [
 export function SkillsIcon(){
     return(
     <div>
-        <div className="grid grid-cols-3 gap-8 ">
+        <div className="grid grid-cols-3 gap-8 md:grid-cols-8 md:mt-12">
         {items.map((item, index) => (
             <div >
-                <div className="flex justify-center items-center mb-[7px]">
+                <div className="grid justify-center items-center mb-[7px] ">
                 <img src={`/skills/${item.picture}`} />
                 </div>
                 <h2 className="text-center text-gray-600 text-base font-normal">

@@ -59,21 +59,28 @@ const worksData = [
 
 export function Works() {
   return (
-    <div className="py-16 px-4 md:py-24 md:px-20">
-      <div className="mb-6">
-        <div className="flex justify-center pb-4">
-          <Tag name="Work" />
+    <div className="dark:text-[#F9FAFB] dark:bg-[#030712] md:flex md:flex-col md:gap-6">
+      <div className="py- px-4 md:py-24 md:px-20 dark:text-[#F9FAFB] rounded-lg">
+        <div className="mb-6">
+          <div className="flex justify-center pb-4">
+            <Tag name="Work" />
+          </div>
+          <div className="mb-6 text-center md:mb-12">
+            Some of the noteworthy projects I have built:
+          </div>
         </div>
-        <div className="mb-6 text-center md:mb-12">
-          Some of the noteworthy projects I have built:
+
+
+        <div className="dark:bg-[#030712]">
+        <div className="md:flex md:flex-col md:gap-14 dark:text-[#F9FAFB] ">
+          {worksData.map((work, index) => (
+            <WorkCard key={work.title} work={work} isReverse={index % 2 === 1} />
+          ))}
+        </div>
+
         </div>
       </div>
 
-      <div className="md:flex md:flex-col md:gap-4">
-        {worksData.map((work, index) => (
-          <WorkCard key={work.title} work={work} isReverse={index % 2 === 1} />
-        ))}
-      </div>
     </div>
   );
 }
@@ -83,20 +90,20 @@ export function Works() {
 function WorkCard({ isReverse = false, work }) {
   return (
     <div
-      className={`md:flex  mb-8  ${
+      className={`md:flex mb-8 dark:bg-[#111827] ${
         isReverse ? "md:flex-row-reverse" : ""
       }`}
     >
-      <div className="md:flex-1 justify-center p-8 bg-gray-100 rounded-lg md:p-12 ">
+      <div className="md:w-[50%] md:rounded justify-center p-8 bg-gray-100 rounded-lg md:p-12 dark:bg-[#1F2937]">
         <Image
           src="/skill.png"
           width={279}
           height={192}
-          className="w-full rounded-lg shadow"
+          className="w-full rounded-lg shadow "
         />
       </div>
 
-      <div className="flex flex-col p-8 rounded-lg  shadow-lg mb- md:flex-1">
+      <div className="flex flex-col p-8 rounded-lg  shadow-lg mb- md:w-[50%] md:rounded">
         <div className="font-semibold text-lg text-gray-900 mb-6">{work.title}</div>
         <div className="mb-6 font-normal text-base text-gray-600">
           {work.desc}

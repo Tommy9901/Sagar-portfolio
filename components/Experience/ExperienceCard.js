@@ -4,7 +4,7 @@ export function ExperienceCard({props}){
     const listItem = props.listItem;
 
     return(
-        <div className="p-8 shadow-md rounded-lg lg:mx-auto lg:flex lg:justify-between">
+        <div className="p-8 shadow-md rounded-lg lg:mx-auto lg:flex lg:justify-between dark:bg-[#1f2937]">
             <div className="mb-4 lg:order-1">
                 <img src="/upwork.png" alt="upwrk" />
             </div>

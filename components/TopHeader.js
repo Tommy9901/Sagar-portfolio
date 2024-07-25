@@ -6,13 +6,16 @@ import { PiFigmaLogoLight } from "react-icons/pi";
 
 export function Header() {
   return (
-    <div className="lg:flex lg:justify-between py-16 px-4 md:py-24 md:px-20">
-      <div className=" bg-slate-600s mb-16 md:order-2">
-        <Image className="mx-auto" src="/images/Pic.png" width={240} height={280} />
+    <div className="dark:text-[#F9FAFB] dark:bg-[#030712] md:flex py-16 px-4 md:py-24 md:px-20 md:gap-12 md:flex-row-reverse">
+      <div className=" px-8 md:w-[380px] max-w-[400px] mx-auto">
+        <div className=" bg-gray-200 w-full mb-16 aspect-[5/6] relative md:top-[10%] md:left-[10%]">
+          <Image className="relative rigth-80 object-cover w-[90%] block md:w-full h-full bottom-[5%] md:bottom-[10%] right-[-5%] md:right-[10%]" src="/images/Pic.png " width={240} height={280}   />
+        </div>
+
       </div>
-      <div className="md:order-1">
+      <div className="">
         <div className="text-4xl font- mb-2">Hi, I’m Sagar 👋</div>
-        <div className="mb-12 text-base max-w-[786px]">
+        <div className="mb-12 text-base max-w-[786px] flex justify-between">
           I'm a full stack developer (React.js & Node.js) with a focus on
           creating (and occasionally designing) exceptional`` digital experiences
           that are fast, accessible, visually appealing, and responsive. Even
