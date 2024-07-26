@@ -37,10 +37,10 @@ const cards = [
 
 export function Experience() {
   return (
-    <div className=" bg-gray-50 dark:text-[#F9FAFB] dark:bg-[#111827]">
+    <div className=" bg-gray-50 dark:text-[#D1D5DB] dark:bg-[#111827]">
       <div className="py-16 px-4 md:py-24 md:px-20 md:max-w-[896px] mx-auto">
         <div className="text-center">
-          <div className="mx-auto inline-block px-5 py-1 bg-gray-200 rounded-lg mb-4 text-sm font-medium text-gray-600">
+          <div className="mx-auto inline-block px-5 py-1 bg-gray-200 rounded-lg mb-4 text-sm font-medium text-gray-600 dark:bg-[#374151] dark:text-[#D1D5DB]">
             Experience
           </div>
           <div className="font-normal text-lg text-gray-600 mb-6">

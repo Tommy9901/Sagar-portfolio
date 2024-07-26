@@ -20,12 +20,12 @@ export function Footer() {
         <div className="md:max-w-[280px] mx-auto dark:text-[#F9FAFB]">
             <div className="flex justify-between items-center ">
                 <GoMail />
-                <p className="text-gray-900 dark:text-[#F9FAFB]">reachsagarshah@gmail.com</p>
+                <p className="text-gray-900 dark:text-[#D1D5DB]">reachsagarshah@gmail.com</p>
                 <LuCopy />
             </div>
             <div className="flex justify-center items-center gap-4 pb-6 md:max-w-[596px]">
                 <IoCallOutline />
-                <p className="text-gray-900 dark:text-[#F9FAFB]">+91 8980500565</p>
+                <p className="text-gray-900 dark:text-[#F9FAFB] ">+91 8980500565</p>
                 <LuCopy />
             </div>
         </div>

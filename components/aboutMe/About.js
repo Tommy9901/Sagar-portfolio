@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export function AboutMe(){
     return (
-        <div className="flex flex-col md:gap-12 py-16 px-4 gap-6 bg-gray-50 md:py-24 md:px-20 dark:text-[#F9FAFB] dark:bg-[#111827]">
-            <div className="mx-auto py-1 px-4 bg-gray-200 rounded-lg inline-block text-sm font-medium text-gray-600 mb-5">About me</div>
+        <div className="flex flex-col md:gap-12 py-16 px-4 gap-6 bg-gray-50 md:py-24 md:px-20 dark:text-gray-600 dark:bg-[#111827]">
+            <div className="mx-auto py-1 px-4 bg-gray-200 rounded-lg inline-block text-sm font-medium text-gray-600 mb-5 dark:bg-[#374151] dark:text-[#D1D5DB]">About me</div>
             
             {/* <div className=" px-8 md:w-[280px] max-w-[400px] mx-auto">
                     <div className=" bg-gray-200 w-full mb-16 aspect-[5/6] relative md:top-[10%] md:left-[10%]">
@@ -11,8 +11,8 @@ export function AboutMe(){
                  </div> */}
             <div className="md:flex md:gap-[192px]">
                 <div className=" mb-12 md:w-[330px] max-w[400px] mx-auto ">
-                    <div className=" bg-gray-200 w-full mb-16 aspect-[5/6] relative md:top-[10%] md:left-[10%]">
-                        <Image className="relative rigth-80 object-cover w-[90%] block md:w-full h-full bottom-[5%] md:bottom-[10%] right-[-5%] md:right-[10%]" src="/images/About.png" width={280} height={360}/>
+                    <div className=" bg-gray-200 dark:bg-[#374151] w-full mb-16 aspect-[5/6] relative md:top-[10%] md:left-[10%]">
+                        <Image className="relative rigth-80 object-cover w-[90%] block md:w-full h-full bottom-[5%] md:bottom-[10%] right-[-5%] md:right-[10%] border-[white] border-8 dark:border-[#111827]" src="/images/about.png" width={280} height={360}/>
                     </div>
                 </div>
                 <div className="flex flex-col gap-6 md:flex-1">

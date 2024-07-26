@@ -59,11 +59,11 @@ const worksData = [
 
 export function Works() {
   return (
-    <div className="dark:text-[#F9FAFB] dark:bg-[#030712] md:flex md:flex-col md:gap-6">
-      <div className="py- px-4 md:py-24 md:px-20 dark:text-[#F9FAFB] rounded-lg">
+    <div className="dark:text-[#D1D5DB] dark:bg-[#030712] md:flex md:flex-col md:gap-6">
+      <div className="py- px-4 md:py-24 md:px-20 dark:text-[#D1D5DB] rounded-lg">
         <div className="mb-6">
-          <div className="flex justify-center pb-4">
-            <Tag name="Work" />
+          <div className="flex justify-center pb-4  py-16">
+            <Tag className="dark:bg-[#374151] dark:text-[#D1D5DB] py-16" name="Work" />
           </div>
           <div className="mb-6 text-center md:mb-12">
             Some of the noteworthy projects I have built:
@@ -96,7 +96,7 @@ function WorkCard({ isReverse = false, work }) {
     >
       <div className="md:w-[50%] md:rounded justify-center p-8 bg-gray-100 rounded-lg md:p-12 dark:bg-[#1F2937]">
         <Image
-          src="/skill.png"
+          src="/work.png"
           width={279}
           height={192}
           className="w-full rounded-lg shadow "

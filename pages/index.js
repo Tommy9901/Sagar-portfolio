@@ -11,7 +11,7 @@ import { Works } from "@/components/Work/Works";
 
 export default function Home() {
   return (
-    <main max-w-1440px>
+    <main max-w-1440px className="dark:bg-[#030712]">
       <Nav/>
 
       <Header />
@@ -20,7 +20,6 @@ export default function Home() {
       <Skills />
       <Experience />
       <Works />
-      
       <Footer />
       <FooterNav />
       
