@@ -12,7 +12,7 @@ export function AboutMe(){
             <div className="md:flex md:gap-[192px]">
                 <div className=" mb-12 md:w-[330px] max-w[400px] mx-auto ">
                     <div className=" bg-gray-200 dark:bg-[#374151] w-full mb-16 aspect-[5/6] relative md:top-[10%] md:left-[10%]">
-                        <Image className="relative rigth-80 object-cover w-[90%] block md:w-full h-full bottom-[5%] md:bottom-[10%] right-[-5%] md:right-[10%] border-[white] border-8 dark:border-[#111827]" src="/images/about.png" width={280} height={360}/>
+                        <Image className="relative rigth-80 object-cover w-[90%] block md:w-full h-full bottom-[5%] md:bottom-[10%] right-[-5%] md:right-[10%] border-[white] border-8 dark:border-[#111827]" src="/images/SagarRed.png" width={280} height={360}/>
                     </div>
                 </div>
                 <div className="flex flex-col gap-6 md:flex-1">
